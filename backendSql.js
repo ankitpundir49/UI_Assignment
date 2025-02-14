@@ -34,11 +34,11 @@ let userEmail="";
 const { Client } = require("pg");
 
 const client = new Client({
-    host:"localhost",
+    host:"dpg-culnu8q3esus73d0p1e0-a",
     port:5432,
-    dbname:"postgres",
-    user:"postgres",
-    password:"adminew",
+    dbname:"edtech_tm99",
+    user:"edtech_tm99_user",
+    password:"BvlbhqS09Emh1P13w21a7LoRNU9hOjSK",
     sslmode:"prefer",
 });
 client.connect()
