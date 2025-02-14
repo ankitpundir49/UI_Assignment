@@ -33,14 +33,18 @@ let userEmail="";
 
 const { Client } = require("pg");
 
+
 const client = new Client({
-    host:"dpg-culnu8q3esus73d0p1e0-a",
-    port:5432,
-    dbname:"edtech_tm99",
-    user:"edtech_tm99_user",
-    password:"BvlbhqS09Emh1P13w21a7LoRNU9hOjSK",
-    sslmode:"prefer",
-});
+    user: 'assignment_goza_user',
+    host: 'dpg-cuno4ha3esus73clcto0-a.oregon-postgres.render.com',
+    database: 'assignment_goza',
+    password: 'XeoZaFFEUnANHqP12duIlRfW0WPjAZw9',
+    port: 5432,
+    ssl: {
+      rejectUnauthorized: true,
+    },
+  });
+
 client.connect()
   .then(() => console.log('Connected to PostgreSQL'))
   .catch(err => console.error('Connection error', err));
