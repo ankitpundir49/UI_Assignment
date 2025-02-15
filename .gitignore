@@ -3,6 +3,8 @@
 # dependencies
 /public
 /node_modules
+/.pnp
+.pnp.js
 
 
 # testing
@@ -11,6 +13,7 @@
 # production
 /build
 /public
+/src
 
 # misc
 .DS_Store

@@ -42,9 +42,9 @@
     "request-promise": "^4.2.6"
   },
   "scripts": {
-    "start": "node src/backendSql.js",
-    "build": "node src/backendSql.js",
-    "test": "node src/backendSql.js",
+    "start": "node backendSql.js",
+    "build": "node backendSql.js",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
